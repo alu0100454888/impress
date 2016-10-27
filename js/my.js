@@ -5,4 +5,5 @@ rootElement.addEventListener( "impress:init", function() {
   console.log( "Impress init" );
 });
 impress().init();
+
 });
