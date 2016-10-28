@@ -11,7 +11,7 @@ body {
 
 
 .step {
-    position: relative;
+    /*position: relative;*/
     padding: 40px;
     margin: 0 auto;
     -webkit-box-sizing: border-box;
@@ -20,14 +20,14 @@ body {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
     font-family: 'PT Serif', georgia, serif;
-    font-size: 48px;
+    font-size: 15px;
     line-height: 1.5;
 }
 .slide {
   display: block;
-  width: 1000px;
-  height: 700px;
-  padding: 120px 60px;
+  width: 500px;
+  height: 400px;
+  padding: 20px 150px 20px 20px;
 /* background-color: white;*/
   border: 1px solid rgba(0, 0, 0, .3);
   border-radius: 10px;
@@ -52,6 +52,10 @@ opacity: 1;
 }
 
 
+
+
+
+
 .step {
 /*  opacity: 0.3;*/
   transition: opacity 1s;
@@ -66,12 +70,16 @@ opacity: 1;
 
 
 #step-1 {
-/*
-margin: 0 auto 0 auto;
-padding: 5px;
-*/
-/*background-color: #000000;*/
-/*color: #fff;*/
+
+
+
+}
+
+
+#step-2 {
+
+background-color:white;
+
 }
 
 /*#step-1 img { max-width: 99%; }*/
